@@ -6,7 +6,7 @@
 
 body{
     font-family: 'Inter', sans-serif;
-    background-color: #edb3d1;
+    background-color: #ecbdd5;
 }
 
 .menu{
@@ -20,4 +20,10 @@ body{
     position: relative;
     float: left;
     padding: 20px;
+}
+
+.banner{
+    margin: 0%;
+    padding: 0%;
+    width: 100vh;
 }
