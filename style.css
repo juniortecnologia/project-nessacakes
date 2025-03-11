@@ -18,6 +18,7 @@ h1 {
     padding: 10px;
     text-align: center;
     color: #F00E6C;
+    transition: 0.5s;
     }
 
 h3 {
@@ -26,20 +27,20 @@ h3 {
     color: #F00E6C;
     }
 
-
-.menu {
-    display: flex;
+li {
+    list-style: none;
     position: relative;
+    display: flex;
+    padding: 5px;
     float: right;
-    padding: 20px;
-    gap: 20px;
-    color: #583903;
 }
 
 #banner {
     display: flex;
+    position: absolute;
     width: 100%;
     margin-top: 1px;
+    
 }
 
 
@@ -53,9 +54,11 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    font-size: small;
 }
 
 #developer {
     text-decoration: none;
     color: #583903;
+    font-size: small;
 }
