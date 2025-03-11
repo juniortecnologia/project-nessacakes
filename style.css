@@ -33,6 +33,7 @@ h3 {
     float: right;
     padding: 20px;
     gap: 20px;
+    color: #583903;
 }
 
 #banner {
@@ -56,5 +57,5 @@ footer {
 
 #developer {
     text-decoration: none;
-    color: black;
+    color: #583903;
 }
