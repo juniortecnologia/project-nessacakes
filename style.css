@@ -2,7 +2,7 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .poppins-regular {
@@ -15,24 +15,27 @@ body{
 }
 
 h1 {
-    padding: 10px;
+    padding: 150px;
     text-align: center;
     color: #F00E6C;
     transition: 0.5s;
-    }
+}
 
-h3 {
-    padding: 20px;
-    text-align: center;
-    color: #F00E6C;
-    }
 
 li {
     list-style: none;
     position: relative;
     display: flex;
-    padding: 5px;
+    padding: 15px;
     float: right;
+    margin-top: 25px;   
+}
+
+.sobre, .contato, .produtos {
+    text-decoration: none;
+    color: #583903;
+    font-size: 1.1rem;
+    font-weight: 500;
 }
 
 #banner {
